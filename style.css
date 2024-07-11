@@ -1,0 +1,79 @@
+body{
+    background-image: url("workshopbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+.parent{
+    background-color: white;
+    height: 90vh;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding: 50px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+.input-label100{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    border: none;
+    margin-left: 68px;
+}
+
+.input100{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    display: block;
+    width: 80%;
+    height: 55px;
+    padding-left: 43px;
+    border: none;
+    margin: auto;
+
+}
+
+hr{
+    width: 360px;
+}
+
+
+.btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    height: 50px;
+    width: 370px;
+    background: linear-gradient(90deg, #00dbde,#fc00ff);
+    border-radius: 30px;
+    border: none;
+    margin: auto;  
+    
+}
+
+.btn:hover{
+    background: -webkit-linear-gradient(right, #00dbde, #fc00ff);
+}
+
+
+.signup{
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
