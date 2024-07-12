@@ -1,17 +1,22 @@
 body{
-    background-image: url("workshopbg.jpg");
+    background-image: url("workshopbg.jpg");  
     background-repeat: no-repeat;
-    background-size: cover;     
+    background-size: cover;
 }
 
 .parent{
     background-color: white;
     height: 90vh;
     width: 500px;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
 }
 
 h1{
@@ -23,12 +28,13 @@ h1{
 }
 
 
-.input-label100{
+.input-label{
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     border: none;
     margin-left: 68px;
 }
+
 
 .input100{
     font-family: "Poppins", sans-serif;
@@ -41,7 +47,14 @@ h1{
     padding-left: 43px;
     border: none;
     margin: auto;
+    transition: 0.3s;
 
+}
+
+.input100:hover{
+    transform: scale(1.01);
+    
+    
 }
 
 hr{
@@ -60,11 +73,15 @@ hr{
     border-radius: 30px;
     border: none;
     margin: auto;  
+    transition: 0.1s;
+    
     
 }
 
 .btn:hover{
     background: -webkit-linear-gradient(right, #00dbde, #fc00ff);
+    transform: scale(1.05);
+
 }
 
 
